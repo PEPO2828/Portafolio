@@ -1,6 +1,7 @@
 
 import { settings } from '../data/settings.js';
 import { Button } from '../components/Button.js';
+import heroImage from '../assets/images/imagen.png';
 
 export const Hero = () => {
   const { name, jobTitle, location, availability, hero, cv, socials } = settings;
@@ -13,9 +14,7 @@ export const Hero = () => {
                       bg-gradient-to-tr from-sky-400/20 via-fuchsia-400/15 to-transparent" aria-hidden="true"></div>
           <div class="relative w-[260px] md:w-[340px] aspect-square">
             <img
-                src="./assets/images/imagen.png"
-                srcset="./assets/images/imagen.png 680w, ./assets/images/imagen.png 340w"
-                sizes="(max-width: 768px) 340px, 680px"
+                src="${heroImage}"
                 alt="${name} — portrait"
                 class="w-full h-full object-contain"
                 style="
