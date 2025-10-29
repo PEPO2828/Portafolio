@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Víctor Raúl Huamán — Portfolio</title>
+  <meta name="description" content="Portfolio and case studies: SuiteScript, JavaScript/TypeScript, ERP automations and integrations." />
+  <meta name="theme-color" content="#0b0d12" />
+
+  <!-- Canonical & Social -->
+  <link rel="canonical" href="https://your-user.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Víctor Raúl Huamán — Portfolio">
+  <meta property="og:description" content="SuiteScript, JavaScript/TypeScript, ERP automations and integrations. Case studies and impact.">
+  <meta property="og:url" content="https://your-user.github.io/">
+  <meta property="og:image" content="https://your-user.github.io/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Víctor Raúl Huamán — Portfolio">
+  <meta name="twitter:description" content="SuiteScript, JS/TS, ERP automations.">
+  <meta name="twitter:image" content="https://your-user.github.io/og-image.jpg">
+
+  <!-- JSON-LD -->
+
+
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] },
+          colors: { base: { bg: '#05060a', panel: '#0b0d12', line: '#1b1f2a' } },
+          boxShadow: { glow: '0 0 0 1px rgba(255,255,255,0.06), 0 30px 80px rgba(99,102,241,.18)' }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-base-bg text-neutral-100 font-sans selection:bg-fuchsia-400/30">
+  <!-- Decorative -->
+  <div class="bg-grid absolute inset-0 opacity-[.10] -z-30" aria-hidden="true"></div>
+  <div class="spotlight" id="spot" aria-hidden="true"></div>
+  <canvas id="fx-stars" class="fixed inset-0 -z-40"></canvas>
+
+  <div id="app"></div>
+
+  <!-- Global Rocket GIF -->
+  <img id="global-rocket-gif" src="./assets/images/gif cohete.gif" alt="Rocket Launch" class="fixed bottom-0 right-0 w-48 h-48 md:w-64 md:h-64 z-50 pointer-events-none">
+
+  <script defer src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
