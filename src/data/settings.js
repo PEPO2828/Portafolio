@@ -5,11 +5,11 @@ export const settings = {
   location: 'Lima, Peru',
   availability: 'Open to remote/hybrid roles',
   email: 'victorhuamansimeon@gmail.com',
-  cv: './assets/docs/Cv_Victor_Huaman.pdf',
+  cv: './assets/docs/cv.pdf',
   socials: {
-    github: 'https://github.com/your-user',
-    linkedin: 'https://www.linkedin.com/in/your-user/',
-    instagram: 'https://instagram.com/your-user',
+    github: 'https://github.com/PEPO2828',
+    linkedin: 'https://www.linkedin.com/in/victor-raul-huaman-simeon-875800215/',
+    instagram: 'https://www.instagram.com/pepoovr?igsh=Z3NrbXowaWlhdGRw',
   },
   hero: {
     title: 'Víctor Raúl Huamán Simeón',
@@ -52,6 +52,18 @@ export const settings = {
         'Excel/Power BI hand-offs',
         'Playbooks and README-style docs',
       ],
+    },
+  ],
+  papers: [
+    {
+      title: 'Paper de Astrowater',
+      path: './assets/docs/paper-astrowater.pdf',
+      download: 'paper-astrowater.pdf',
+    },
+    {
+      title: 'Paper de SpaceOps',
+      path: './assets/docs/paper-spaceops.pdf',
+      download: 'paper-spaceops.pdf',
     },
   ],
 };
