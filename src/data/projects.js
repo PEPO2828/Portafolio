@@ -1,25 +1,25 @@
 
 export const projects = [
   {
-    title: 'SpaceOps Inventory Monitor — App stand-alone para controlar suministros',
+    title: 'SpaceOps Inventory Monitor — Aplicación autónoma para controlar suministros',
     year: '2025',
     tags: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
     summary: 'Registra entradas y consumos, calcula días de cobertura y clasifica cada ítem en OK / Advertencia / Crítico. Incluye dashboard con KPIs (total, en riesgo, “más consumido – 30 días”), búsqueda y filtro de bajo stock, y detalle por ítem con historial y gráfico con anotaciones. Persiste datos en LocalStorage y usa arquitectura modular con repositorios/DI, lista para conectar a ERP/backend sin tocar la lógica.',
     links: [
-      { label: 'Ver Demo', url: 'https://pepo2828.github.io/spaceops-inventory-monitor/' },
+      { label: 'Ver Demo', url: '/Portafolio/assets/docs/Implementation of a Cloud-Based ERP System for Optimized Inventory and Supply Management in Space Stations and Long-Duration Missions.pdf', download: 'Implementation of a Cloud-Based ERP System for Optimized Inventory and Supply Management in Space Stations and Long-Duration Missions.pdf' },
       { label: 'Ver Código', url: 'https://github.com/PEPO2828/spaceops-inventory-monitor' },
-      { label: 'Paper', url: '#' }
+      { label: 'Paper', url: '/Portafolio/assets/docs/Implementation of a Cloud-Based ERP System for Optimized Inventory and Supply Management in Space Stations and Long-Duration Missions.pdf', download: 'Implementation of a Cloud-Based ERP System for Optimized Inventory and Supply Management in Space Stations and Long-Duration Missions.pdf' }
     ]
   },
   {
-    title: 'AstroWater Forecaster (v2) — Simulador stand-alone de autonomía de agua',
+    title: 'AstroWater Forecaster (v2) — Simulador autónomo de autonomía de agua',
     year: '2025',
     tags: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
     summary: 'Dos modos (Simular • Predecir días), parámetros editables (duración, tripulación, consumo, reciclaje, stock), KPIs/estados (Óptimo/Moderado/Crítico) y gráfica con umbral seguro. Basado en Clean Architecture + SOLID, con lógica ERP-ready; la demo corre de forma independiente (sin URL de ERP).',
     links: [
       { label: 'Ver Demo', url: 'https://pepo2828.github.io/COPERNICUS-Water-Supply-Forecasting-System-for-Space-Missions/' },
       { label: 'Ver Código', url: 'https://github.com/PEPO2828/COPERNICUS-Water-Supply-Forecasting-System-for-Space-Missions' },
-      { label: 'Paper', url: '#' }
+      { label: 'Paper', url: '/Portafolio/assets/docs/Forecasting water supply shortages in space missions using scenario - based simulation within erp systems.pdf', download: 'Forecasting water supply shortages in space missions using scenario - based simulation within erp systems.pdf' }
     ]
   },
   {
@@ -32,35 +32,6 @@ export const projects = [
       { label: 'Ver Código', url: 'https://github.com/PEPO2828/Ruta-Track' }
     ]
   },
-  {
-    title: 'LATAM Fiscal Automation (SuiteScript) — Demo',
-    year: '2025',
-    tags: ['SuiteScript', 'ERP', 'SQL'],
-    summary: 'Automations for PLE, SAT and SICORE with validations and runtime improvements.',
-    metrics: ['~30% faster runtime', '+12 validations', 'Zero manual export steps'],
-    links: [
-      { label: 'Case study', url: '#' },
-      { label: 'GitHub', url: '#' },
-      { label: 'Live', url: '#' },
-    ],
-  },
-  {
-    title: 'Resource Simulation (Unity) — IAC 2025',
-    year: '2025',
-    tags: ['Unity'],
-    summary: 'Lightweight resource-management simulation for habitats (demo data).',
-    metrics: ['Used in IAC talk', 'Simple UI', 'Configurable scenarios'],
-    links: [
-      { label: 'Video', url: '#' },
-      { label: 'GitHub', url: '#' },
-    ],
-  },
-  {
-    title: 'SOC dashboards & playbooks (docs/demo)',
-    year: '2024–2025',
-    tags: ['ERP'],
-    summary: 'Visibility KPIs and response processes (public mock).',
-    metrics: ['Faster hand-offs', 'RACI defined'],
-    links: [{ label: 'Docs', url: '#' }],
-  },
+
+
 ];

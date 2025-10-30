@@ -1,23 +1,23 @@
 
 export const settings = {
-  name: 'Víctor Raúl Huamán Simeón',
+  name: 'Víctor Huamán Simeón',
   jobTitle: 'Software Developer',
-  location: 'Lima, Peru',
-  availability: 'Open to remote/hybrid roles',
+  location: 'Lima, Perú',
+  availability: 'Abierto a roles remotos/híbridos',
   email: 'victorhuamansimeon@gmail.com',
-  cv: './assets/docs/cv.pdf',
+  cv: 'assets/docs/VictorHuaman_CV.pdf',
   socials: {
     github: 'https://github.com/PEPO2828',
     linkedin: 'https://www.linkedin.com/in/victor-raul-huaman-simeon-875800215/',
     instagram: 'https://www.instagram.com/pepoovr?igsh=Z3NrbXowaWlhdGRw',
   },
   hero: {
-    title: 'Víctor Raúl Huamán Simeón',
+    title: 'Víctor Huamán Simeón',
     subtitle: 'Software Developer — SuiteScript • JS/TS • ERP',
-    blurb: 'I build <b>Oracle NetSuite (ERP)</b> automations with <b>SuiteScript 2.0/2.1</b>, <b>JavaScript/TypeScript</b> and <b>SQL</b>. I like integrations, clean docs and measurable outcomes. Spoke at <b>IAC 2025 (Sydney)</b> with a resource-simulation demo.',
+    blurb: 'Construyo automatizaciones para <b>Oracle NetSuite (ERP)</b> con <b>SuiteScript 2.0/2.1</b>, <b>JavaScript/TypeScript</b> y <b>SQL</b>. Me gustan las integraciones, la documentación clara y los resultados medibles. Di una charla en <b>IAC 2025 (Sídney)</b> con una demostración de simulación de recursos.',
   },
   about: {
-    blurb: 'Analytical mindset, quick learner and pragmatic delivery. I care about good practices, clear docs and measurable outcomes. <b>Immediate availability · flexible hours.</b>',
+    blurb: 'Mentalidad analítica, aprendizaje rápido y entrega pragmática. Me preocupan las buenas prácticas, la documentación clara y los resultados medibles. <b>Disponibilidad inmediata · horario flexible.</b>',
   },
   skills: [
     'SuiteScript 2.0 / 2.1',
@@ -30,40 +30,29 @@ export const settings = {
   ],
   services: [
     {
-      title: 'NetSuite automations',
+      title: 'Automatizaciones de NetSuite',
       items: [
-        'Suitelet, Client, Map/Reduce, Scheduled scripts',
-        'Statutory reports (PLE, SAT, SICORE, REINF)',
-        'Performance & validation hardening',
+        'Scripts Suitelet, Cliente, Map/Reduce, Programados',
+        'Informes reglamentarios (PLE, SAT, SICORE, REINF)',
+        'Mejora de rendimiento y validación',
       ],
     },
     {
-      title: 'Integrations & APIs',
+      title: 'Integraciones y APIs',
       items: [
-        'RESTlets, web services and data pipelines',
-        'Auth, pagination, error handling',
-        'Clean JSON contracts & docs',
+        'RESTlets, servicios web y pipelines de datos',
+        'Autenticación, paginación, manejo de errores',
+        'Contratos JSON limpios y documentación',
       ],
     },
     {
-      title: 'Dashboards & tooling',
+      title: 'Dashboards y herramientas',
       items: [
-        'Operational dashboards (ERP/SOC)',
-        'Excel/Power BI hand-offs',
-        'Playbooks and README-style docs',
+        'Dashboards operativos (ERP/SOC)',
+        'Entregas a Excel/Power BI',
+        'Playbooks y documentación estilo README',
       ],
     },
   ],
-  papers: [
-    {
-      title: 'Paper de Astrowater',
-      path: './assets/docs/paper-astrowater.pdf',
-      download: 'paper-astrowater.pdf',
-    },
-    {
-      title: 'Paper de SpaceOps',
-      path: './assets/docs/paper-spaceops.pdf',
-      download: 'paper-spaceops.pdf',
-    },
-  ],
+
 };

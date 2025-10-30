@@ -1,11 +1,11 @@
 
 export const Header = (activeSection = '') => {
   const navLinks = [
-    { id: 'work', href: '#work', label: 'Work' },
-    { id: 'skills', href: '#skills', label: 'Skills' },
-    { id: 'what-i-do', href: '#what-i-do', label: 'What I Do' },
-    { id: 'about', href: '#about', label: 'About' },
-    { id: 'contact', href: '#contact', label: 'Contact' },
+    { id: 'work', href: '#work', label: 'Trabajo' },
+    { id: 'skills', href: '#skills', label: 'Habilidades' },
+    { id: 'what-i-do', href: '#what-i-do', label: 'Lo que hago' },
+    { id: 'about', href: '#about', label: 'Sobre mí' },
+    { id: 'contact', href: '#contact', label: 'Contacto' },
   ];
 
   return `

@@ -40,11 +40,10 @@ export const Hero = () => {
           <h1 id="hero-title" class="mt-2 text-4xl md:text-5xl font-extrabold leading-[1.1] gradient-text">${hero.title}</h1>
           <p class="mt-4 text-neutral-300 max-w-xl">${hero.blurb}</p>
           <div class="mt-6 flex flex-wrap gap-3">
-            ${Button({ href: cv, label: 'Download CV', icon: 'file-document-outline', download: 'cv.pdf' })}
+            ${Button({ href: cv, label: 'Descargar CV', icon: 'file-document-outline', download: 'VictorHuaman_CV.pdf' })}
             ${Button({ href: socials.github, label: 'GitHub', icon: 'github' })}
             ${Button({ href: socials.linkedin, label: 'LinkedIn', icon: 'linkedin', style: 'color:#0A66C2' })}
             ${Button({ href: socials.instagram, label: 'Instagram', icon: 'instagram', style: 'color:#E4405F' })}
-            ${settings.papers.map(paper => Button({ href: paper.path, label: paper.title, icon: 'file-document-outline', download: paper.download })).join('')}
           <div class="mt-4 text-xs text-neutral-400 hidden md:block">${availability}</div>
         </div>
       </div>

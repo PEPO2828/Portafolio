@@ -30,7 +30,7 @@ export const ProjectCard = (p) => {
         ${p.tags.map(t => `<span class='px-2 py-1 rounded-full border border-base-line'>${getTagWithEmoji(t)}</span>`).join('')}
       </div>
       <div class="mt-4 flex flex-wrap gap-3 text-sm">
-        ${p.links.map(l => Button({ href: l.url, label: l.label, variant: 'neon' })).join('')}
+        ${p.links.map(l => Button({ href: l.url, label: l.label, variant: 'neon', download: l.download })).join('')}
       </div>
     </article>
   `;
