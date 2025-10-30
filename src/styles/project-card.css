@@ -1,0 +1,27 @@
+
+body {
+  background-color: #0A0A10;
+}
+
+.project-card {
+  background-color: #111118;
+  border: 1px solid #333;
+  border-radius: 8px; /* Opcional: para esquinas redondeadas */
+  padding: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  border-color: #A78BFA;
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.6);
+  transform: translateY(-2px); /* Ligero levantamiento */
+}
+
+.project-card-content {
+  position: relative;
+  z-index: 1;
+  /* Estilos para el contenido dentro de la tarjeta */
+  color: #e0e0e0; /* Color de texto claro para contraste */
+}

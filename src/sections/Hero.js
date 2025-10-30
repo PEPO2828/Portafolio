@@ -36,14 +36,14 @@ export const Hero = () => {
           </div>
         </div>
         <div class="order-2 md:order-2">
-          <p class="text-sm text-neutral-400">${jobTitle} — ${hero.subtitle} · ${location}</p>
+          <p class="text-sm text-neutral-400">${hero.subtitle} · ${location}</p>
           <h1 id="hero-title" class="mt-2 text-4xl md:text-5xl font-extrabold leading-[1.1] gradient-text">${hero.title}</h1>
-          <p class="mt-4 text-neutral-300 max-w-xl">${hero.blurb}</p>
+          <p class="mt-4 text-neutral-300 max-w-xl">Ponente en IAC 2025 Sídney y Junior Full Stack Developer, comprometido con el aprendizaje continuo y el crecimiento en el desarrollo de soluciones innovadoras.</p>
           <div class="mt-6 flex flex-wrap gap-3">
             ${Button({ href: cv, label: 'Descargar CV', icon: 'file-document-outline', download: 'VictorHuaman_CV.pdf' })}
             ${Button({ href: socials.github, label: 'GitHub', icon: 'github' })}
             ${Button({ href: socials.linkedin, label: 'LinkedIn', icon: 'linkedin', style: 'color:#0A66C2' })}
-            ${Button({ href: socials.instagram, label: 'Instagram', icon: 'instagram', style: 'color:#E4405F' })}
+            ${Button({ href: '#contact', label: 'Contáctame', target: '_self', icon: 'email-outline' })}
           <div class="mt-4 text-xs text-neutral-400 hidden md:block">${availability}</div>
         </div>
       </div>

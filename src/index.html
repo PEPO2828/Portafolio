@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Víctor Raúl Huamán — Portafolio</title>
+  <title>Pepo</title>
   <meta name="description" content="Portafolio y casos de estudio: SuiteScript, JavaScript/TypeScript, automatizaciones e integraciones ERP." />
   <meta name="theme-color" content="#0b0d12" />
 
@@ -46,12 +46,17 @@
   <div id="app"></div>
 
   <!-- Global Rocket GIF -->
-  <img id="global-rocket-gif" alt="Rocket Launch" class="fixed bottom-0 right-0 w-48 h-48 md:w-64 md:h-64 z-50 pointer-events-none">
+  <img id="global-rocket-gif" alt="Rocket Launch" class="fixed bottom-0 right-0 w-64 h-64 md:w-80 md:h-80 z-50 pointer-events-none">
+
+  <!-- Global UFO GIF -->
+  <img id="global-ufo-gif" alt="UFO Flying" class="fixed bottom-0 left-0 w-48 h-48 md:w-64 md:h-64 z-50 pointer-events-none">
 
   <script defer src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
   <script type="module">
-    import rocketGif from './assets/images/gif cohete.gif';
+    import rocketGif from './public/assets/images/gif cohete.gif';
+    import ufoGif from './public/assets/images/ufo.gif';
     document.getElementById('global-rocket-gif').src = rocketGif;
+    document.getElementById('global-ufo-gif').src = ufoGif;
   </script>
   <script type="module" src="./main.js"></script>
 </body>

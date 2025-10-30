@@ -74,18 +74,11 @@ function createSectionSeparator() {
 function renderApp() {
   const app = $('#app');
   app.innerHTML = `
-    ${Header(activeSectionId)}
+
     <main id="top" class="mx-auto max-w-6xl px-5">
       ${Hero()}
-      ${createSectionSeparator()}
       ${Skills()}
-      ${createSectionSeparator()}
       ${Work()}
-      ${createSectionSeparator()}
-      ${Services().replace('id="services"', 'id="what-i-do"')}
-      ${createSectionSeparator()}
-      ${About()}
-      ${createSectionSeparator()}
       ${Contact()}
     </main>
     ${Footer()}

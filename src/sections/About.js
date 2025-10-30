@@ -6,7 +6,7 @@ export const About = () => {
 
   return `
     <section id="about" class="py-10" aria-labelledby="about-title">
-      <h2 id="about-title" class="text-2xl font-semibold tracking-tight">About</h2>
+      <h2 id="about-title" class="text-2xl font-semibold tracking-tight">Biografía</h2>
       <p class="mt-3 text-neutral-300 max-w-3xl" data-reveal>
         ${about.blurb}
       </p>

@@ -50,7 +50,7 @@ body {
 /* Glitch suave */
 #hero-title.glitch { position: relative; }
 #hero-title.glitch::before,
-#hero-title.glitch::after{ content: attr(data-text); position:absolute; inset:0; pointer-events:none; mix-blend-mode:screen; opacity:.0; }
+#hero-title.glitch.glitch::after{ content: attr(data-text); position:absolute; inset:0; pointer-events:none; mix-blend-mode:screen; opacity:.0; }
 #hero-title.glitch::before{ transform: translate(.02em,-.02em); color:#60a5fa; }
 #hero-title.glitch::after { transform: translate(-.02em,.02em); color:#f472b6; }
 #hero-title.glitch:hover::before,
@@ -98,4 +98,31 @@ body {
 
 #global-rocket-gif.global-rocket-launching {
   animation: globalRocketLaunch 4s ease-out forwards;
+}
+
+/* Global UFO Animation */
+/* Removed keyframes for globalUfoLaunch as it will be static */
+
+#global-ufo-gif {
+  opacity: 1; /* Always visible */
+  transition: none; /* No transition on opacity */
+  top: 80%; /* Position at 80% from the top */
+  left: 0; /* Position at the left */
+  bottom: auto; /* Remove bottom positioning */
+  animation: none; /* Remove any animation */
+}
+
+#global-ufo-gif.global-ufo-launching {
+  animation: none; /* Ensure no animation is applied */
+}
+
+/* Animation for Pepo title */
+header a.gradient-text.text-xl {
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+header a.gradient-text.text-xl:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  opacity: 0; /* Make it disappear */
 }
